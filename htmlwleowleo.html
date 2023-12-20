@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData Mahasiswa</title>
+</head>
+<body>
+    <h1 style="background-color: lightseagreen;"><center>BioData</center></h1>
+      <form action="" method ="post" style="background-color: palevioletred;">
+         <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label>Nama Depan:</label> <input type ="text"  placeholder ="ENTER YOUR FIRST NAME" name =""/><br></br>
+            
+            <label>Nama Tengah:</label> <input type ="text"  placeholder ="ENTER YOUR MIDDLE NAME" name =""/><br></br>
+            
+            <label>Nama Belakang:</label> <input type ="text"  placeholder ="ENTER YOUR LAST NAME" name =""/><br></br>
+            
+            <label>Jenis Kelamin:</label> <input type ="radio" name ="gender" id ="male"/><label for ="male">Laki-Laki</label><input type ="radio" name ="gender" id ="female"/><label for ="female">Perempuan</label><input type ="radio" name ="gender" id ="other"/><label for ="other">Lainnya</label><br></br>
+            
+           <label>Tanggal Lahir:</label> <input type ="date" name =""/><br></br>
+            
+           <label>Prodi:</label><select>
+                                    <option></option>                                 
+                                    <option>Ilmu Komunikasi</option>
+                                    <option>Teknik Informatika</option>
+                                  <option>Sistem Informasi</option>
+                            <option>DKV</option>
+                               </select> <br></br>
+            
+            <label>Email:</label> <input type ="email" placeholder ="Enter your email" name =""/><br></br>
+            
+            <label>Telepon:</label> <input type ="tel" placeholder ="Enter your phone number" name =""/><br></br>
+          </fieldset>
+          
+          <fieldset>
+             <legend>Social Media</legend>
+             
+             <label>Instagram:</label><input type ="text" name =""/><br></br>
+             
+             <label>Twitter:</label><input type ="text" name =""/><br></br>
+             
+             <label>Facebook:</label><input list ="stream">
+                                   <datalist id ="stream">
+                <option value ="ME">                  
+      </datalist>
+             <br></br>
+             
+             <label>Upload Foto:</label><input type ="file" name ="" /><br></br>
+             
+             <input type ="submit"/>
+             <input type ="reset"/>
+             
+          </fieldset>
+      </form>
+</body>
+</html>
